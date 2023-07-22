@@ -46,6 +46,15 @@
 .ml-1 {
   margin-left: 15px;
 }
+.mr-1 {
+  margin-right: 15px;
+}
+.ml-2 {
+  margin-left: 30px;
+}
+.mr-2 {
+  margin-right: 30px;
+}
 .none {
   display: none;
 }
@@ -84,7 +93,10 @@
 .navbar-li {
   margin-right: 7px;
 }
-.navbar-li:hover {
+.navbar-li > a {
+  text-decoration: none;
+}
+.navbar-li>a:hover {
   color: var(--grey);
 }
 .icon {
@@ -225,7 +237,7 @@
 }
 /* social feed section end  */
 /* footer start  */
-.logo {
+.ft-logo {
   width: 140px;
   height: 64px;
   margin-left: 0;
@@ -256,5 +268,55 @@
 .footer-a-4 {
   margin-left: 15px;
 }
-
 /* footer end  */
+/* About Page CSS  */
+/* intro start */
+.intro-heading {
+  font-family: "Playfair Display", serif;
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+.intro-paras {
+  text-align: center;
+  color: #afa79f;
+  margin: 30px 30px 0px 30px;
+}
+/* intro end */
+/* Restaurants section start */
+.restaurants-para {
+  text-align: center;
+  color: var(--grey);
+  margin: 30px 30px 0px 30px;
+}
+.content-img {
+  width: 450px;
+  height: 287px;
+}
+.content-para {
+  text-align: justify;
+  margin-right: 80px;
+  font-size: 0.8rem;
+}
+.logo-text {
+  font-family: "Stylish", sans-serif;
+}
+.content-hdng {
+  font-size: 1.7rem;
+}
+.express-hdng {
+  text-align: center;
+  margin-right: 80px;
+  font-size: 0.8rem;
+}
+/* Restaurants section end */
+/* franchises section start  */
+.franchises-img {
+  width: 265px;
+  height: 275px;
+  border-radius: 10px;
+}
+.franchises-para {
+  text-align: center;
+  font-size: small;
+}
+/* franchises section end  */
