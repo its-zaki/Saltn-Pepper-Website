@@ -1,0 +1,260 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #000000;
+  color: #ffffff;
+  font-family: "Poppins", sans-serif;
+}
+/* css varaible */
+:root {
+  --red: #ed1c24;
+  --white: #ffffff;
+  --black: #000000;
+  --grey: #cfcecc;
+}
+/* utility classes */
+.d-flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.justify-center {
+  justify-content: center;
+}
+.justify-around {
+  justify-content: space-around;
+}
+.gap {
+  gap: 20px;
+}
+.text-center {
+  text-align: center;
+}
+.justify-between {
+  justify-content: space-between;
+}
+.justify-evenly {
+  justify-content: space-evenly;
+}
+.text-center {
+  text-align: center;
+}
+.mt-1 {
+  margin-top: 20px;
+}
+.ml-1 {
+  margin-left: 15px;
+}
+.none {
+  display: none;
+}
+.w-100 {
+  width: 100%;
+}
+.mb-1 {
+  margin-bottom: 20px;
+}
+.wrap {
+  flex-wrap: wrap;
+}
+.mt-2 {
+  margin-top: 40px;
+}
+.mt-3 {
+  margin-top: 60px;
+}
+.mb-2 {
+  margin-bottom: 40px;
+}
+/* utilities classes end */
+/* navbar start  */
+.logo {
+  display: inline;
+  margin-left: 20px;
+  cursor: pointer;
+}
+.ul-list {
+  list-style: none;
+  justify-content: center;
+  margin-right: 20px;
+  font-size: 17px;
+  cursor: pointer;
+}
+.navbar-li {
+  margin-right: 7px;
+}
+.navbar-li:hover {
+  color: var(--grey);
+}
+.icon {
+  font-size: 1.5rem;
+}
+.nav-btn {
+  background-color: var(--red);
+  padding: 15px 15px 15px 15px;
+  border-radius: 50px;
+  cursor: pointer;
+}
+/* navbar end  */
+/* header start  */
+.header-img {
+  width: 100%;
+  height: 400px;
+}
+/* header end  */
+/* category section start  */
+.category-img {
+  width: 183px;
+  height: 350px;
+  margin-right: 20px;
+  object-fit: cover;
+}
+.category-heading {
+  font-family: "Playfair Display", serif;
+  letter-spacing: 0.1rem;
+}
+.category {
+  margin-left: 20px;
+}
+/* category section end  */
+/* discover section start  */
+.discover-img {
+  margin-top: 60px;
+}
+.discover-heading {
+  font-size: 1rem;
+  letter-spacing: 0.5rem;
+  color: var(--red);
+}
+.discover-heading-1 {
+  font-size: 2.5rem;
+  font-family: "Playfair Display", serif;
+}
+.discover-content {
+  margin-left: 20px;
+  margin-right: 10px;
+}
+.discover-p {
+  text-align: justify;
+  color: var(--grey);
+}
+.discover-btn {
+  background-color: none;
+  padding: 10px 20px 10px 20px;
+  border: 1px solid white;
+  border-radius: 50px;
+  font-weight: bold;
+  font-size: 1rem;
+  margin-bottom: 0px;
+}
+.learn-more-arrow {
+  font-size: 1rem;
+}
+/* discover section end  */
+/* deals section start  */
+.deals-img {
+  width: 270px;
+  height: 225px;
+}
+.deals-section {
+  margin-right: 20px;
+}
+.deals-p {
+  font-size: 0.7rem;
+}
+.deals-box {
+  margin-left: 20px;
+}
+.price {
+  text-align: center;
+}
+.deals-heading-m {
+  font-family: "Playfair Display", serif;
+  font-size: 2rem;
+  margin-top: 60px;
+}
+.deals-heading {
+  font-size: 1rem;
+}
+.deals-btn {
+  background-color: var(--red);
+  padding: 10px 30px 10px 30px;
+  border-radius: 50px;
+  justify-content: center;
+  cursor: pointer;
+}
+/* deals section end  */
+/* menu section start  */
+.menu-1-hdng {
+  font-size: 1rem;
+  letter-spacing: 0.5rem;
+  color: var(--red);
+}
+.menu-2-hdng {
+  font-size: 2.5rem;
+  font-family: "Playfair Display", serif;
+  font-weight: 700;
+  margin-top: 10px;
+}
+.menu-para {
+  text-align: justify;
+  color: var(--grey);
+}
+.menu-img {
+  width: 497px;
+  height: 497px;
+}
+.menu-section {
+  margin-top: 80px;
+  margin-left: 10px;
+}
+.menu-headings {
+  margin-right: 40px;
+}
+/* menu section end  */
+/* social feed section start  */
+.social-heading {
+  font-family: "Playfair Display", serif;
+  font-size: 2rem;
+  margin-top: 60px;
+}
+.social-img {
+  width: 185px;
+  height: 185px;
+}
+/* social feed section end  */
+/* footer start  */
+.logo {
+  width: 140px;
+  height: 64px;
+  margin-left: 0;
+}
+.footer-para {
+  color: var(--grey);
+  font-size: 15px;
+}
+.footer-a {
+  text-decoration: none;
+  text-align: justify;
+  color: var(--grey);
+  margin-right: 20px;
+}
+.footer-li {
+  list-style-type: none;
+}
+.footer {
+  margin-top: 80px;
+}
+.data-1-div {
+  margin-right: 30%;
+  margin-left: 15px;
+}
+.footer-heading {
+  font-family: "Playfair Display", serif;
+}
+.footer-a-4 {
+  margin-left: 15px;
+}
+
+/* footer end  */
