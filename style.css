@@ -253,6 +253,7 @@
   color: var(--grey);
   font-size: 15px;
 }
+
 .footer-a {
   text-decoration: none;
   text-align: justify;
@@ -515,3 +516,48 @@
 }
 
 /* login section end  */
+/* menu section start  */
+.menu-head {
+  margin: 50px;
+  font-size: 40px;
+}
+
+.menu-heading {
+  margin: 30px 0px ;
+  padding: 20px;
+  font-size: 25px;
+} 
+
+.menu-img {
+  width: 270px;
+  height: 225px;
+}
+
+.div-img-menu {
+  padding: 10px;
+}
+
+.h3-menu {
+  font-size: 18px;
+  margin: 10px 0px 0px;
+}
+
+.p-menu {
+  padding: 5px;
+  font-size: 13px;
+  color: rgb(128, 128, 128);
+}
+
+.p2-menu {
+  font-size: 16px;
+  margin: 10px 0px 14px;
+}
+
+.menu-button {
+  padding: 10px 20px 10px 20px;
+  border-radius: 20px;
+  border: none;
+  color: var(--white);
+  background-color: var(--red);
+}
+/* menu section end  */
