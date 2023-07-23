@@ -5,6 +5,7 @@
   background-color: #000000;
   color: #ffffff;
   font-family: "Poppins", sans-serif;
+  scroll-behavior: smooth;
 }
 /* css varaible */
 :root {
@@ -18,6 +19,12 @@
   display: flex;
   align-items: center;
   justify-content: center;
+}
+.d-flex-c{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .justify-center {
   justify-content: center;
@@ -325,27 +332,22 @@
   width: 448px;
   height: 413px;
 }
-
 .main-div-book {
   margin: 72px;
   gap: 30px;
 }
-
 .div-book {
   margin: 0px 0px 32px;
   padding: 32px 0px 40px;
   border: 1px solid rgb(134, 134, 134);
 }
-
 .h4-branch {
   padding: 0px 0px 12px;
 }
-
 .p-add {
   margin: 0px 0px 10px;
   font-size: 14px;
 }
-
 .p-ph {
   font-size: 14px;
   margin: 0px 0px 15px;
@@ -376,31 +378,140 @@
   background-color: var(--red);
   padding: 10px 15px 10px 15px;
   border-radius: 50px;
-  
   cursor: pointer;
 }
-.input-btn-div{
-  margin-left:280px;
-  
-  
+.input-btn-div {
+  margin-left: 280px;
 }
-
- 
-
-
 /* feedback section end  */
 /* get a franchise section start  */
-.h4-franchise{
-  color: var(--grey);
-  
+.h4-franchise {
+  color: rgb(165, 161, 161);
+  margin-bottom: 15px;
+  margin-top: 20px;
 }
-.input-franchise{
+.input-franchise {
   width: 450px;
-  height: 59px;
+  height: 45px;
   background-color: var(--white);
-  color: var(--grey);
-  border-radius: 10px;
-
+  color: #000000;
+  border-radius: 5px;
+  border: none;
+  padding: 0px 10px 0px 10px;
+}
+.form-btn{
+  background-color: var(--red);
+  padding: 15px 65px 15px 65px;
+  border-radius: 50px;
+  cursor: pointer;
+  margin-left: 25px;
 
 }
 /* get a franchise section end  */
+/* login section start  */
+.login{
+  border: 1px solid  #ffffff55  ;
+  width: 500px;
+  margin: 60px auto;
+  
+}
+.login-input {
+  display: block;
+  width: 100%;
+  margin-left: 10px;
+  border: unset !important;
+  background:none;
+  color: var(--white);  
+  outline: none;
+}
+
+.input-hdng{
+  margin-left: 10px;
+  background-color: #2b2b2b;
+  font-size: small;
+}
+.login-input-div{
+  border: none;
+  display: block;
+  width: 80%;
+  margin: 25px auto;
+  padding: 5px;
+  background-color:#2b2b2b;
+
+
+}
+.input-submit{
+  border: none;
+  display: block;
+  width: 80%;
+  margin: 15px auto;
+  padding: 15px;
+  background-color:var(--red);
+  cursor: pointer;
+
+
+}
+.submit-btn{
+  background-color: var(--red);
+  border:none;
+  display: block;
+  margin: 0 auto;
+}
+.forgot-pass-a{
+  text-decoration: none;
+  margin-left: 55px;
+  font-size: 12px;
+}
+.forgot-pass-a:hover{
+  color: rgb(69, 155, 212)
+}
+.input-submit-login{
+  border: none;
+  display: block;
+  width: 80%;
+  margin: 15px auto;
+  padding: 15px;
+  background-color:#cf463a;
+  cursor: pointer;
+
+}
+.input-submit-login-fb{
+  border: none;
+  display: block;
+  width: 80%;
+  margin: 15px auto;
+  padding: 15px;
+  background-color:#3b5998;
+  cursor: pointer;
+
+}
+.submit-btn-login{
+  background-color: #cf463a;
+  border:none;
+  display: block;
+  margin: 0 auto;
+}
+.submit-btn-fb{
+  background-color: #3b5998;
+  border:none;
+  display: block;
+  margin: 0 auto;
+}
+
+.bg-form-icon{
+  background-color: #cf463a;
+  
+}
+.bg-form-icon-fb{
+  background-color: #3b5998;
+  
+}
+.form-end-para{
+  font-size: 14px;
+
+}
+.red-text{
+  color: var(--red);
+}
+
+/* login section end  */
